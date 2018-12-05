@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clk_cpu'
+Slack : -2.622
+TNS   : -135.433
+
+Type  : Slow Model Setup 'ctrl:controller|alu_sct_ctrl[0]'
+Slack : -0.926
+TNS   : -3.461
+
+Type  : Slow Model Hold 'ctrl:controller|alu_sct_ctrl[0]'
+Slack : -2.799
+TNS   : -8.102
+
+Type  : Slow Model Hold 'clk_cpu'
+Slack : -2.546
+TNS   : -21.734
+
+Type  : Slow Model Minimum Pulse Width 'clk_cpu'
+Slack : -1.380
+TNS   : -112.380
+
+Type  : Slow Model Minimum Pulse Width 'ctrl:controller|alu_sct_ctrl[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'clk_cpu'
+Slack : -0.471
+TNS   : -13.841
+
+Type  : Fast Model Setup 'ctrl:controller|alu_sct_ctrl[0]'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clk_cpu'
+Slack : -1.586
+TNS   : -21.017
+
+Type  : Fast Model Hold 'ctrl:controller|alu_sct_ctrl[0]'
+Slack : -1.543
+TNS   : -4.486
+
+Type  : Fast Model Minimum Pulse Width 'clk_cpu'
+Slack : -1.380
+TNS   : -112.380
+
+Type  : Fast Model Minimum Pulse Width 'ctrl:controller|alu_sct_ctrl[0]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,39 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+	port (
+			Load   :  in std_logic;
+			Number :  in std_logic_vector(2 downto 0);
+			clk    :  in std_logic;
+			enb    :  in std_logic;
+			rst    :  in std_logic;
+			s      :  in std_logic;
+			
+			
+			Q      :  out std_logic;
+			Qbar   :  out std_logic
+	);
+end contador;
+
+architecture contar of contador is
+signal qsignal : std_logic_vector(2 downto 0);
+begin 
+	process (clk,enb,rst)
+	begin
+		if (rst = '1') then
+			qsignal <= "000";
+		elsif (enb = '0') then
+			qsignal <= qsignal;
+		elsif (clk'event and clk = '1') then
+			if(Load = '0') then
+				qsignal <= Number;
+			elsif(Load = '1' and s = '1') then
+				qsignal <= Number + 1;
+			elsif(Load = '1' and s = '0') then
+				qsignal <= Number - 1;
+			end if;
+		end if;
+	end process;
+	Q <=qsignal;
+	Qbar <= not qsignal;
+end contar;

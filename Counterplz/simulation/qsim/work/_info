@@ -1,0 +1,161 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0\Counterplz\simulation\qsim
+vcontador
+Z1 IdA5H_bGl7zLEO]QkZlCWK1
+Z2 VaI^b`zzjodRjYiA:k4QI]3
+Z3 dC:\altera\13.0\Counterplz\simulation\qsim
+Z4 w1543547585
+Z5 8Contador.vo
+Z6 FContador.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 !s100 29XN?6YD87D;la?ENNn6]3
+Z10 !s108 1543547588.976000
+Z11 !s107 Contador.vo|
+Z12 !s90 -work|work|Contador.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vContador
+Z13 I3nlG7oh`=cG_49TF<A8^13
+Z14 V2o06o87C_UU5;L<7DVDaa3
+R3
+Z15 w1543867372
+R5
+R6
+L0 31
+R7
+r1
+31
+R12
+R8
+Z16 n@contador
+!i10b 1
+Z17 !s100 3@<1QL9hHAXiJOzKDhZT`0
+!s85 0
+Z18 !s108 1543867373.012000
+R11
+!s101 -O0
+vContador_vlg_check_tst
+!i10b 1
+Z19 !s100 XnLmOU>b9m[^]5ID>8oTc1
+Z20 IHVT8PeeoVllXz79^92Z<N1
+Z21 VfG2WKgK0GYZaV_fo>EX2e3
+R3
+Z22 w1543867371
+Z23 8Contador.vt
+Z24 FContador.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z25 !s108 1543867373.277000
+Z26 !s107 Contador.vt|
+Z27 !s90 -work|work|Contador.vt|
+!s101 -O0
+R8
+Z28 n@contador_vlg_check_tst
+vcontador_vlg_check_tst
+Z29 IWG83Cfl0gE86Dk@V3?M4S1
+Z30 VWkzMA`LN_GEoBg;V[A[ZV3
+R3
+Z31 w1543547584
+R23
+R24
+L0 63
+R7
+r1
+31
+Z32 !s108 1543547589.454000
+Z33 !s107 Contador.vt|
+R27
+R8
+Z34 !s100 14>JbeQKl01GlFN75bF7o0
+!i10b 1
+!s85 0
+!s101 -O0
+vContador_vlg_sample_tst
+!i10b 1
+Z35 !s100 JFN7YLDlc`;ZHR1[bch5d0
+Z36 IB[^1n>T=823aFLSCNED0z0
+Z37 V9Wc9WIUBH9S`34X9c2TIN0
+R3
+R22
+R23
+R24
+L0 29
+R7
+r1
+!s85 0
+31
+R25
+R26
+R27
+!s101 -O0
+R8
+Z38 n@contador_vlg_sample_tst
+vcontador_vlg_sample_tst
+Z39 Iz>H>K@[F^9^BVF=Ad5gXR1
+Z40 V:G4D_RD5IXl]CJ[62PjRX3
+R3
+R31
+R23
+R24
+L0 29
+R7
+r1
+31
+R32
+R33
+R27
+R8
+Z41 !s100 cNjhVJVn[7]oTgIdL_C:k2
+!i10b 1
+!s85 0
+!s101 -O0
+vContador_vlg_vec_tst
+!i10b 1
+Z42 !s100 ddjzdO6@VdSAT`VEd8d?K3
+Z43 Icg0BU7=4WA^5oY=AcW`3j1
+Z44 Vf_Z>l^e23S3fS:3_gI:Ch1
+R3
+R22
+R23
+R24
+Z45 L0 269
+R7
+r1
+!s85 0
+31
+R25
+R26
+R27
+!s101 -O0
+R8
+Z46 n@contador_vlg_vec_tst
+vcontador_vlg_vec_tst
+Z47 IEQzX5AHh@?]8MHmlF8MV_0
+Z48 Vg7eM`4C4en1cUe:c[RGT<3
+R3
+R31
+R23
+R24
+Z49 L0 327
+R7
+r1
+31
+R32
+R33
+R27
+R8
+Z50 !s100 oOSkoNkUanooUN@hV1=1O2
+!i10b 1
+!s85 0
+!s101 -O0
